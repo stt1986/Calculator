@@ -82,7 +82,7 @@ def checkDecimal():
 def keySort(key):
     operationsList=["+","-","/","*"]
     numbersList=[]
-    for i in range (9):
+    for i in range (10):
         numbersList.append(str(i))
         numbersList.append(".")
     if key.char in operationsList:
